@@ -1,3 +1,172 @@
-p{
-    color: aqua;
+* {
+
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+/* header start */
+.header-bg{
+    background-image: url(/images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+
+}
+.first-p {
+   
+    
+    
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* or 162% */
+
+   
+
+    /* Dark 02 */
+
+    color: #444343;
+}
+
+
+/* banner styles */
+.banner {
+   width: 400px;
+   text-align: right;
+   margin-left: auto;
+   padding: 300px 0px;
+}
+section.section-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.persion {
+    
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+
+.myfaill {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    /* Dark 01 */
+
+    color: #151414;
+}
+
+.second-p {
+    
+    width: 416px;
+
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    /* Dark 02 */
+
+    color: #444343;
+}
+.contact-btn{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #FFFFFF;
+background: #F15B22;
+border-radius: 5px;
+padding: 10px 25px;
+border: none;
+}
+.ul {
+    
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1416px;
+}
+
+.plan {
+    
+    
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    /* identical to box height */
+
+
+    /* Dark 01 */
+
+    color: #151414;
+}
+
+.my-plan{
+    text-align: center;
+}
+.myplan-two{
+display: flex;
+justify-content: space-between;
+gap: 90px;
+}
+.watch{
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 50px;
+  
+}
+.call-btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    
+    color:  #F15B22;
+    background:white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+     
+}
+
+footer{
+    background-color: black;
+    margin-top: 60px;
+}
+.footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-content{
+    width: 400px;
+}
+
+.social-conatiner{
+    display: flex;
+    gap: 30px;
+}
+
+.social-icon{
+    background: #FFFFFF;
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
 }
